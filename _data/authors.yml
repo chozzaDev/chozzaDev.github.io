@@ -1,0 +1,27 @@
+# Authors
+
+Jack:
+  name             : "정태준"
+  avatar           : "/assets/images/avata.jpg"
+  bio              : "생각의 한계가 능력의 한계다"
+  location         : "Seoul, South of Korea"
+  email            : "taejoon.jung@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:taejoon.jung@gmail.com"
+    - label: "Blog"
+      icon: "fas fa-fw fa-link"
+      url: "https://chozzadev.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/A8EQjmTvqJlS7vk"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/profile.php?id=100040117714453"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/chozzadev"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
