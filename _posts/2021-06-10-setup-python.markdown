@@ -12,8 +12,7 @@ Fast API를 사용하여 회사에서 서비스하는 API서버를 구축하려 
 
 # Python 설치에 앞서...
 ### Homebrew
-
-공식 홈페이지 : https://brew.sh/index_ko
+[공식 홈페이지](https://brew.sh/index_ko "Homebrew 공식홈페이지")
 
 ![버전확인](/assets/images/2021/06/20210610_01.png "버전확인 결과")
 
