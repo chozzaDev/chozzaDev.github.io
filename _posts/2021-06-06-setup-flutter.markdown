@@ -5,7 +5,7 @@ categories: flutter
 ---
 
 
-1. XCode
+1. XCode``
   * App Store에서 검색하여 설치
   * 실행하여 라이센스 동의
 

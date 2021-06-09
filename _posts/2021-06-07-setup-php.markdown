@@ -1,0 +1,18 @@
+---
+title:  "M1 Mac 에서 Intellij & PHP 개발 환경설정"
+date:   2021-06-07 10:16:41 +0900
+categories: php
+---
+
+Spring 으로만 서버 프로젝트를 진행하다가 PHP를 해야하는 상황이 생겼다.
+
+한번도 해보지 않았지만 꼭 해야만 하는 상황이라 어쩔 수 없이 공부하여 설정해 본다.
+
+구성은 Intellij + PHP 로 진행할 것이다.
+
+
+1. PHP 설치
+  * ```brew install php```
+  * ```pecl install xdebug```
+2. Intellij 에 plugin 을 검색하여 PHP 플러그인을 설치 (재기동 필요)
+3.
