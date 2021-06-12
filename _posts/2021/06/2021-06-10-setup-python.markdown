@@ -66,3 +66,17 @@ __머선 일이고...__
 ```shell
 pyenv global 3.9.5
 ```
+
+만약 위와 같이 해도 버전이 변경되지 않는다면 Path 설정이 필요하다.
+```shell
+sudo vi ~/.zshrc
+```
+
+```shell
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init --path)"
+fi
+```
+
