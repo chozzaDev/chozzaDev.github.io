@@ -1,6 +1,6 @@
 ---
-title:  "[pedantic]Flutter Code 를 깔끔하게"
-date:   2021-06-10 15:52:00 +0900
+title:  "[애드브릭스]Flutter에 Adbrix 연동하기"
+date:   2021-06-11 15:32:00 +0900
 categories: flutter
 ---
 
