@@ -80,3 +80,38 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 ```
 
+## virtualenv
+
+[virtualenv 홈페이지](https://pypi.org/project/virtualenv/)
+
+격리된 파이썬 환경을 만들기위해 필요하다고 한다.
+
+```shell
+pip install virtualenv
+```
+
+```shell
+virtualenv venv
+```
+venv 폴더를 생성하고 가상환경에 필요한 파일을 복사한다.
+
+```shell
+source venv/bin/activate
+```
+가상환경 활성화 실행하면 아래와같이 출력
+
+```shell
+(venv) chozza@jeongtaejun-ui-MacBookPro notification-api-master %
+```
+
+파이썬 프로젝트를 하나 만들고 가상환경 sdk 설정은
+
+File > Project Structure > SDKs > `+` > 파이썬 sdk를 선택하고 프로젝트 폴더의 venv 지정하면 된다.
+
+![파이썬가상환경설정](/assets/images/2021/06/20210617_01.png)
+
+설정하고 프로젝트 root에 requirements.txt 를 작성하면 종속성 관리를 할 수 있는데
+
+마치 maven 같이 사용하는 라이브러리를 적어 놓으면 한번에 편하게 설치 가능하다.
+
+
