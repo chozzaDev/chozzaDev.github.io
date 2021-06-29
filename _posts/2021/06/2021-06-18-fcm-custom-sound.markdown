@@ -35,6 +35,24 @@ categories: flutter
 프로젝트에 에셋으로 추가해야 한다.
 
 위에 것들을 모두 마쳤다면
+#### 최초 Android 알림 채널 생성
+```dart
+final AndroidNotificationChannel channel = AndroidNotificationChannel(
+  'high_importance_channel', // id
+  'High Importance Notifications', // title
+  'This channel is used for important notifications.', // description
+  importance: Importance.high,
+  playSound: true,
+  sound: RawResourceAndroidNotificationSound('alarm')
+);
+static Future<void> _createNotificationChannel() async {
+final flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
+await flutterLocalNotificationsPlugin
+  .resolvePlatformSpecificImplementation<
+  AndroidFlutterLocalNotificationsPlugin>()
+?.createNotificationChannel(channel);
+}
+```
 
 #### onSelectNotification 실행중 알람을 눌렀을때 처리
 ```dart
